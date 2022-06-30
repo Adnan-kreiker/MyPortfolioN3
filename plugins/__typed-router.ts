@@ -4,15 +4,15 @@
  * ---------------------
  * */
 
-import { defineNuxtPlugin } from '#app';
+import { defineNuxtPlugin } from '#app'
 
 export default defineNuxtPlugin((nuxtApp) => {
-  const routesList = { index: 'index' };
+  const routesList = { index: 'index' }
 
   return {
     provide: {
       typedRouter: nuxtApp.$router,
-      routesList,
-    },
-  };
-});
+      routesList
+    }
+  }
+})

@@ -9,9 +9,9 @@ import type {
   RouteLocation,
   RouteLocationNormalizedLoaded,
   RouteLocationOptions,
-  RouteQueryAndHash,
-} from 'vue-router';
-import type { TypedRouteList } from './__routes';
+  RouteQueryAndHash
+} from 'vue-router'
+import type { TypedRouteList } from './__routes'
 
 export type RouteListDecl = { index: 'index' };
 
